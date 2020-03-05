@@ -57,11 +57,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a data-scroll class="nav-item nav-link page-scroll" href="#home">Inicio</a>
+            <div class="navbar-nav ml-auto navShadow text-white">
+                <a data-scroll class="nav-item nav-link page-scroll" href="#inicio">Inicio</a>
                 <a data-scroll class="nav-item nav-link page-scroll" href="#about">Acerca</a>
                 <a data-scroll class="nav-item nav-link page-scroll" href="#proyect">Proyecto</a>
-                <!-- <a data-scroll class="nav-item nav-link page-scroll" href="plans.html">Floor Plans</a> -->
                 <a data-scroll class="nav-item nav-link page-scroll" href="#pictures">Galleria</a>
                 <a data-scroll class="nav-item nav-link page-scroll" href="#contact">Contacto</a>
             </div>
@@ -69,7 +68,7 @@
     </nav>
 
     <!-- video banner -->
-    <div class="banner">
+    <div class="banner" id="inicio">
         <video muted autoplay loop>
             <source src="video/Valle_del_Sol_Los_Cabos.mp4" type="video/mp4">
         </video>
@@ -77,15 +76,6 @@
             <h1>Valle del Sol es el unico desarrollo en Cabo que ofrece casas con paneles solares. Energía solar con una excelente ubicación, casas ecologicas y sustentables.</h1>
         </div>
     </div>
-
-    <!-- el inicial 
-    <header id="home">
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="video/valle-resize.mp4" type="video/mp4">
-    </video>
-    </header>
-    -->
 
     <!-- About us  -->
     <section class="container-fluid pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="about">
@@ -106,12 +96,15 @@
                     <p>Vivir en una casa pequeña es muy sencillo cuando tienes la vista del mar de Los Cabos, jardín organico, area para fogatas, increibles puestas de sol, espacio para montar a caballo o simplemente dar una caminata. Valle del Sol es ideal
                         para fines de semana, veranos o inclusive para vivir y formar parte de esta increible comunidad a un precio increible.</p>
                     <a class="btn bg-pink text-white-opacity" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Read More
+            Leer Mas
           </a>
                     <div class="collapse" id="collapseExample">
                         <div class="mt-2">
                             <p>Nuestra propiedad cuenta con 29,000 metros cuadrados e incluirá 41 casitas; cada una con alrededor de 400 a 500 metros cuadrados. Casas sustentables en el mejor punto y con la mejor vista a Los Cabos. Lo mejor de los 2 mundos,
                                 tranquilidad y naturaleza, solamente a 5 minutos de Cabo San Lucas.</p>
+                            <h3 class="titles">La sustentabilidad de las casas</h3>
+                            <p>La sustentabilidad de las casas de Valle del Sol proviene no solo de los materiales de construcción, sino también de la energía solar que alimenta toda la casa. Cada casa contará con 13 ventanas y 3 puertas que ayudan a que
+                                fluya el aire natural, ayudando de esta manera al medio ambiente.</p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +115,7 @@
     <!-- Proyect -->
     <section class="container-fluid pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="proyect">
         <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading display-4 font-weight-bold titles">Project</h2>
+            <h2 class="section-heading display-4 font-weight-bold titles">Proyecto</h2>
             <hr class="my-4">
         </div>
         <div class="row">
@@ -154,11 +147,11 @@
                     </div>
                     <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                        <span class="sr-only">Anterior</span>
                     </a>
                     <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                        <span class="sr-only">Siguiente</span>
                     </a>
                 </div>
             </div>
@@ -286,12 +279,12 @@
                             </div>
                             <div class="form-group">
                                 <div class="input-group mb-2">
-                                    <textarea class="form-control" placeholder="Tell us a little bit more" rows="4" name="message" required></textarea>
+                                    <textarea class="form-control" placeholder="Dinos un poco mas" rows="4" name="message" required></textarea>
                                 </div>
                             </div>
                             <div data-netlify-recaptcha="true"></div>
                             <div class="text-center">
-                                <input type="submit" value="Submit" class="btn bg-pink text-white btn-block rounded-0 py-2 text-uppercase">
+                                <input type="submit" value="Enviar" class="btn bg-pink text-white btn-block rounded-0 py-2 text-uppercase">
                             </div>
                         </div>
                     </div>

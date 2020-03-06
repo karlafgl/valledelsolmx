@@ -45,6 +45,33 @@ body {
     color: #fff;
 }
 
+
+/* Smartphones (portrait) */
+
+@media only screen and (max-width: 320px) {
+    .banner .content h1 {
+        font-size: 0.75rem;
+    }
+    .banner .content p {
+        font-size: 1em;
+    }
+    .banner .content {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .banner .content h1 {
+        font-size: 0.85rem;
+    }
+    .banner .content p {
+        font-size: 1em;
+    }
+    .banner .content {
+        max-width: 280px;
+    }
+}
+
 .titles {
     color: #a75f49;
     font-family: 'Dancing Script';
